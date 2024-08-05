@@ -1,5 +1,5 @@
 {
-  "homepage":"https://operateur-mar.github.io/my-react-portfolio",
+  "homepage": "https://operateur-mar.github.io/my-react-portfolio",
   "name": "developer-portfolio",
   "description": "Portfolio of Abu Said",
   "version": "0.1.0",
@@ -8,9 +8,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint", 
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.1",
